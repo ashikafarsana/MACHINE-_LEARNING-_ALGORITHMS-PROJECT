@@ -1,1 +1,24 @@
 
+How does K-NN work?
+
+Step-1: Select the number K of the neighbors
+Step-2: Calculate the Euclidean distance of K number of neighbors
+Step-3: Take the K nearest neighbors as per the calculated Euclidean distance.
+Step-4: Among these k neighbors, count the number of the data points in each category.
+Step-5: Assign the new data points to that category for which the number of the neighbor is maximum.
+Step-6: Our model is ready.
+
+calculate the Euclidean distance between the data points. The Euclidean distance is the distance between two points
+ Euclidean distance= sqrt[(x2-x1)^2+(y2-y1)^2]
+ 
+ Advantages of KNN Algorithm:
+ 
+It is simple to implement.
+It is robust to the noisy training data
+It can be more effective if the training data is large.
+
+
+Disadvantages of KNN Algorithm:
+
+Always needs to determine the value of K which may be complex some time.
+The computation cost is high because of calculating the distance between the data points for all the training samples.
